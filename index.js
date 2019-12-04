@@ -1,6 +1,6 @@
 const simpleGit = require('simple-git/promise')();
 
-// 先拉取
+// 拉取更新
 simpleGit.pull('origin', 'master', {'--no-rebase': null});
 
 // 查看状态，add,commit,push
