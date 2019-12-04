@@ -8,7 +8,7 @@ simpleGit.status()
 	if(status.files.length > 0){
 		simpleGit.add('.');
 		simpleGit.commit('555 test...');
-		simpleGit.push(['-u', 'origin', 'master'], ()=>{
+		simpleGit.push('orign', 'master', ()=>{
 			console.log('doen')
 		});
 	}
