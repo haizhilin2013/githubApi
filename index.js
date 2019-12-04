@@ -12,7 +12,7 @@ simpleGit
 			simpleGit.add('.');
 			simpleGit.commit('555 test...');
 			simpleGit.push('origin', 'master', ()=>{
-				console.log('doen')
+				console.log('done')
 			});
 		}
 	});
