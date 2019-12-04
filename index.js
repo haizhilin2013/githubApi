@@ -3,7 +3,7 @@ const simpleGit = require('simple-git/promise')();
 // 先拉取
 simpleGit.pull('origin', 'master', {'--no-rebase': null});
 
-// 查看状态
+// 查看状态，add,commit,push
 simpleGit
 	.status()
 	.then((status)=>{
